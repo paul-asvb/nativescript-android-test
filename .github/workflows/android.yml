@@ -14,14 +14,9 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: set up JDK 11
-      uses: actions/setup-java@v2
+    - uses: hrueger/setup-nativescript@v1.1.0
       with:
-        java-version: '11'
-        distribution: 'temurin'
-        cache: gradle
-
-    - name: test
-      run: find .
+        nativescript-version: '7.0.10'
 
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
