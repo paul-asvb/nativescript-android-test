@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
+    "@nativescript/android": "^8.1.1",
     "@nativescript/core": "~8.1.1",
     "@react-navigation/core": "^5.15.3",
     "react": "~16.13.1",
