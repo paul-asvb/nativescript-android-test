@@ -18,7 +18,7 @@ export const mainStackNavigator = () => (
             }}
         >
             <StackNavigator.Screen
-                name="Home"
+                name="Bla"
                 component={HomeScreen}
             />
             <StackNavigator.Screen
